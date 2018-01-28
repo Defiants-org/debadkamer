@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+
+	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+		{% include nav.html %}
+    {% include header.html %}
+    {% include ons.html %}
+    {% include stap.html %}
+    {% include bad.html %}
+    {% include dress.html %}
+    {% include contact.html %}
+
+  <!--  {{ content }} = only used if the included sections are added to index.html file -->
+
+		{% include footer.html %}
+		{% include scripts.html %}
+	</body>
+</html>
